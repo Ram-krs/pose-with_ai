@@ -10,6 +10,26 @@ body{
     font-family:Arial,sans-serif;
 }
 
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:14px 20px;
+    background:#111827;
+    border-bottom:1px solid #334155;
+}
+
+.user-info{
+    color:#e2e8f0;
+    font-weight:bold;
+}
+
+.logout-btn{
+    color:#00ff99;
+    text-decoration:none;
+    font-weight:bold;
+}
+
 .container{
     width:95%;
     max-width:1200px;
